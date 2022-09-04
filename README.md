@@ -23,6 +23,10 @@ A must known resources of AWS for Architects and Cloud engineer
 
 [Well Architected](https://www.wellarchitectedlabs.com/)
 
+# Reference Architecture Diagram
+
+[Find Architecture Diagram](https://aws.amazon.com/architecture/reference-architecture-diagrams)
+
 # Learn by doing
 
 [Skill builder](https://skillbuilder.aws)
