@@ -19,6 +19,10 @@ A must known resources of AWS for Architects and Cloud engineer
 
 [Python Sample](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/python/example_code)
 
+# AWS Well Architectedlabs
+
+[Well Architected](https://www.wellarchitectedlabs.com/)
+
 # Learn by doing
 
 [Skill builder](https://skillbuilder.aws)
