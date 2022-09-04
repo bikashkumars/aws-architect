@@ -18,3 +18,7 @@ A must known resources of AWS for Architects and Cloud engineer
 [Java Sample](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/example_code/s3)
 
 [Python Sample](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/python/example_code)
+
+# Learn by doing
+
+[Skill builder](https://skillbuilder.aws)
