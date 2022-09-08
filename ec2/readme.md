@@ -12,4 +12,8 @@
 
 # EC2 Storage Options
 
-![ec2](images/ec2_storage.JPG)
+![ec2 Storage](images/ec2_storage.JPG)
+
+# EC2 Networking
+
+![ec2 Networking](images/ec2_networking.JPG)
