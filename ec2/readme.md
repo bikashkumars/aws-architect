@@ -10,11 +10,11 @@
 4. storage optimized
 5. Accelerated computing
 
-# EC2 Storage Options
+# EC2 Storage types
 
 ![ec2 Storage](images/ec2_storage.JPG)
 
-# EC2 Storage optimized
+# EC2 Storage types
 
 1. Instance storage (Temporary storage)
 2. EBS - Elastic Block Storage ( Permanent storage ), 1 EBS can be attached to 1 EC2 only. Provides snapshot backup. Storage size is fixed.
