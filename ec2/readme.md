@@ -48,3 +48,7 @@ S3 is scalable, like EFS, and has access to multiple EC2 instances. However, it 
 # EC2 Networking
 
 ![ec2 Networking](images/ec2_networking.JPG)
+
+# EBS type that can be attached to EC2
+
+![ec2 Networking](images/ebs_type.JPG)
