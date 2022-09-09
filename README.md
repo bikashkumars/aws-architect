@@ -10,6 +10,17 @@ A must known resources of AWS for Architects and Cloud engineer
 
 [PPT](https://aws.amazon.com/architecture/icons/)
 
+# AWS Well Architecture framework
+
+Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
+
+1. Performance
+2. Reliability
+3. Operational Excellence
+4. Cost Optimization
+5. E - has no meaning**
+6. Security
+7. Sustainability
 
 # Sample Source code to connect different AWS services
 
