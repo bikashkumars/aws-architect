@@ -1,4 +1,4 @@
-# AWS Resources to design Architecture Diagram
+# AWS for Architect Quick Reference Guide
 A must known resources of AWS for Architects and Cloud engineer
 
 ![alt text](https://github.com/bikashkumars/aws-resource-architect/blob/main/aws_groups.JPG)
