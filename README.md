@@ -41,3 +41,13 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 # Learn by doing
 
 [Skill builder](https://skillbuilder.aws)
+
+[Repost - Ask your technical question and get Expert answer](https://repost.aws)
+
+[Hands on workshop and Tutorial](https://workshops.aws)
+
+[Price calculator](https://calculator.aws)
+
+[AWS training](https://aws.training)
+
+[SageMaker Free lab](https://studiolab.sagemaker.aws)
