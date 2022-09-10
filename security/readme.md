@@ -23,7 +23,7 @@ It's shared security model between AWS and You.
 
 # Exceptions using Security Group and NACL
 
-For following service, you can not restrict using Security group and Network Access Control List
+Following traffic/services can not be restricted/controlled using either Security group or Network Access Control List ( NACL )
 
 Amazon Domain Name Services (DNS)
 
