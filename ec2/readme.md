@@ -10,6 +10,12 @@
 4. storage optimized
 5. Accelerated computing
 
+# EC2 Security Group aka Firewall
+
+In each instance, AWS provides Firewall called Security Group to control inbound/outbound traffic.
+
+Bydefault all inbound traffic are blocked in Security Group.
+
 # EC2 Storage types
 
 ![ec2 Storage](images/ec2_storage.JPG)

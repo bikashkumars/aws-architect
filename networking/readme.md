@@ -1,14 +1,16 @@
 # AWS VPC
 
 1. VPC is isolated but are managed in place where other customer do have their VPC
-2. VPC Peering
+2. VPC Peering ( 2 connect 2 VPC present in different region or same region)
 3. VPC are restricted to use in 1 Region (multiple AZs)
 4. VPC comes with default Roting table and we can create our custom Routing table
 
 
 ![VPC](images/vpc.JPG)
 
-# AWS NACL - for subnet
+# AWS NACL - at subnet level
+
+Network ACLs allow or deny specific inbound and outbound traffic at the subnet level.
 
 1. Network Access Control List ( NACL) is used to control traffic at subnet level
 2. VPC comes with default NACL, which allows inbound and outbound traffic bydefault.
