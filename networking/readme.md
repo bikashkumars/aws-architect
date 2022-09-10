@@ -6,6 +6,7 @@
 4. VPC comes with default Roting table and we can create our custom Routing table
 5. Network Access Control List ( NACL) is used to control traffic at subnet level
 6. VPC comes with default NACL, which allows inbound and outbound traffic bydefault.
+7. In NACL, lowest numer/digit means, AWS with give more priority while checking rules
 
 ![VPC](images/vpc.JPG)
 
