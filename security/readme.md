@@ -42,3 +42,10 @@ Amazon ECS task metadata endpoints
 | Supports allow rules only | Supports allow rules and deny rules |
 | We evaluate all rules before deciding whether to allow traffic | We evaluate rules in order, starting with the lowest numbered rule, when deciding whether to allow traffic |
 | Stateful: Return traffic is allowed, regardless of the rules | Stateless: Return traffic must be explicitly allowed by  |
+
+
+# Security Group Chaining
+
+It's good pratice to create Security Groups for Web server / proxy, Application and Databases
+
+![Security Group Chaining](images/security_group_chaining.JPG)
