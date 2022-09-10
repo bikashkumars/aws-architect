@@ -4,6 +4,8 @@
 2. VPC Peering
 3. VPC are restricted to use in 1 Region (multiple AZs)
 4. VPC comes with default Roting table and we can create our custom Routing table
+5. Network Access Control List ( NACL) is used to control traffic at subnet level
+6. VPC comes with default NACL, which allows inbound and outbound traffic bydefault.
 
 ![VPC](images/vpc.JPG)
 
@@ -43,6 +45,8 @@ Each subnet must be attached with a routing table.
 If Internet Gateway is attached, then its called Public subnet.
 
 If Internet Gateway is not attached, then its called Private subnet.
+
+1 Subnet can have only 1 NACL attached. Bydefault Custom NACL blocks inbound and outbound traffic.
 
 
 
