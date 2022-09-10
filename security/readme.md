@@ -21,7 +21,7 @@ It's shared security model between AWS and You.
 5. Network ACLs are stateless, which means that responses to allowed inbound traffic are subject to the rules for outbound traffic 
 
 
-# Exceptions using Group and NACL
+# Exceptions using Security Group and NACL
 
 For following service, you can not restrict using Security group and Network Access Control List
 
