@@ -4,11 +4,28 @@
 2. VPC Peering
 3. VPC are restricted to use in 1 Region (multiple AZs)
 4. VPC comes with default Roting table and we can create our custom Routing table
-5. Network Access Control List ( NACL) is used to control traffic at subnet level
-6. VPC comes with default NACL, which allows inbound and outbound traffic bydefault.
-7. In NACL, lowest numer/digit means, AWS with give more priority while checking rules
+
 
 ![VPC](images/vpc.JPG)
+
+# AWS NACL - for subnet
+
+1. Network Access Control List ( NACL) is used to control traffic at subnet level
+2. VPC comes with default NACL, which allows inbound and outbound traffic bydefault.
+3. In NACL, lowest numer/digit means, AWS with give more priority while checking rules
+
+While creating NACL rule, we need to supply following details
+
+1. Rule Number (priority)
+2. Type ( SSH, custom text)
+3. Protocol ( http, tcp, udp )
+4. Port Range ( single port and port range 22-2222)
+5. Source ( from which ip it will be allowed/dedined, 0.0.0.0/0 means all)
+6. Allow/
+
+By default AWS adds block All traffic and kept has lowest priority so that your custom rule get more priority.
+
+![VPC](images/nacl.JPG)
 
 # Routing Table
 1. VPC comes with default Roting table and we can create our custom Routing table
