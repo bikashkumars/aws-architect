@@ -1,3 +1,9 @@
+# How AWS Charge
+
+* All data coming from internet to AWS is free
+* Internal Region communication is chargeable
+* All outbound data are chargeable
+
 # Instance Calculator
 
 ![EC2 Configuration](images/ec2_usage.JPG)
