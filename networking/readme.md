@@ -5,6 +5,11 @@
 3. VPC are restricted to use in 1 Region (multiple AZs)
 4. VPC comes with default Roting table and we can create our custom Routing table
 
+Deep concept
+1. VPC is always attached with 1 Main Routing Table
+2. Always attached with 1 NACL
+2. Always attached with 1 Primary CIDR
+
 
 ![VPC](images/vpc.JPG)
 

@@ -51,3 +51,7 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 [AWS training](https://aws.training)
 
 [SageMaker Free lab](https://studiolab.sagemaker.aws)
+
+[bugbust - Submit Bug and Win](https://bugbust.aws/)
+
+[Community Help](https://honeycodecommunity.aws/)
