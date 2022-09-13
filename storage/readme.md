@@ -21,3 +21,12 @@
 10. 10,000 I/O Ops is also available as part of performance
 11. Storage space increases automatically, space is auto-scaled by AWS
 12. EFS life cycle management allows less accessed file to moved low cost storage class for better cost optimization
+
+
+# EFS Security
+
+![EFS Use](images/efs_security.JPG)
+
+1. From application, security can be implemented by IAM policy
+2. From network security point of view, Security Group can be used to protect
+3. Per appliation specific folder EFS Access point can be used to create folder and permission
