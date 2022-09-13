@@ -45,3 +45,7 @@
 2. Infrequent Access storage Class ( low cost )
 
 File can be moved from standard to IA class by enabling life cycle management based on some date configured, file can be moved.
+
+2 types of performance mode available by EFS
+
+![EFS Operating mode](images/efs_mode.JPG)
