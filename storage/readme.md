@@ -7,6 +7,10 @@
 ![EFS Use](images/efs_usecase.JPG)
 
 
+![EFS Use](images/EFS_feature.JPG)
+
+
+
 # EFS 
 
 1. NFS protocol
