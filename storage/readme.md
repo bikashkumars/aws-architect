@@ -15,3 +15,7 @@
 4. file wise locking
 5. Tree/directory structure
 6. It can be connected to On-prim and EC2 and NFS drive. All can access parallel.
+7. EFS is designed for linux
+8. FSX is there for windows
+9. 10 GB/second performance is granted
+10. 10,000 I/O Ops is also available as part of performance
