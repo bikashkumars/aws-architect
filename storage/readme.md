@@ -49,3 +49,16 @@ File can be moved from standard to IA class by enabling life cycle management ba
 2 types of performance mode available by EFS
 
 ![EFS Operating mode](images/efs_mode.JPG)
+
+
+Data Sync
+AWS Backup
+
+
+# EFS real world
+
+1. Assume your EC2 instances do have 1 security group
+2. create a Security Group and allow type as NFS and source from EC2 security group name. Outbound as allow all.
+3. Create a NFS and towards last step it will ask for mount
+4. In the mount choose target AZ, target subnet, newly created security group as step-2
+5. 
