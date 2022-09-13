@@ -30,3 +30,14 @@
 1. From application, security can be implemented by IAM policy
 2. From network security point of view, Security Group can be used to protect
 3. Per appliation specific folder EFS Access point can be used to create folder and permission
+
+
+# EFS Storage class
+
+![EFS Use](images/efs_storage_class_types.JPG)
+
+2 type of storage class provided by EFS
+1. Standard Storage Class
+2. Infrequent Access storage Class ( low cost )
+
+File can be moved from standard to IA class by enabling life cycle management based on some date configured, file can be moved.
