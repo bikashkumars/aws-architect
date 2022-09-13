@@ -19,3 +19,4 @@
 8. FSX is there for windows
 9. 10 GB/second performance is granted
 10. 10,000 I/O Ops is also available as part of performance
+11. Storage space increases automatically, space is auto-scaled by AWS
