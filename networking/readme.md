@@ -85,4 +85,12 @@ If Internet Gateway is not attached, then its called Private subnet.
 ![VPC](images/egress.JPG)
 
 
+# VPC Peering
+
+1. first create a VPC peering with source and target ( requester and Accepter )
+2. selecting the peering vpc, then from the action menu, accept the peering at the accepter VPC
+3. Now need to change routing table of both source vpc and target vpc
+4. then in target EC2 add security group rules to allow traffic from specific vpx
+
+
 
