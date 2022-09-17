@@ -48,3 +48,7 @@ If you earn the Object, Block, and File badges, you’ll automatically earn the 
 
 [Data Protection and Disaster Recovery Learning Plan Badge Assessment](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/12811/data-protection-and-disaster-recovery-learning-plan-badge-assessment)
 
+
+## Data Analytics
+
+[Data Anlytics learning plan - 18 hours ](https://explore.skillbuilder.aws/learn/learning_plan/view/97/data-analytics-learning-plan)
