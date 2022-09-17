@@ -2,6 +2,10 @@
 
 How to learn AWS with free resources
 
+Open a Account on AWS Skill Builder
+
+[AWS Skillbuilder](https://skillbuilder.aws)
+
 ## AWS free digital badges
 
 List of digital badges available
