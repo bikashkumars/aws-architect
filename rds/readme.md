@@ -54,3 +54,8 @@ Monitoring
 1. Aurora logs to CloudWatch
 2. CloudWatch Log to S3 and then run analysis with AWS Athena  ( Athena provide interactive query on S3 )
 3. Or CloudWatch Log to AWS ElasticSearch and then run analytics on AWS QuickSight ( QuickSight is BI tool )
+
+
+Demo
+
+[Quick Aurora Demo](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1663495200/2HKpYD8YqBZB2VPPwyILrQ/tincan/e92d27afbf892bd9807456c5d88e791f486908d4/assets/_yDm0RFgAof0_0zi_transcoded-OTLI6tcZvs6YlhUo-amazon-aurora-demo.mp4)
