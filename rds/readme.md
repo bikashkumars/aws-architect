@@ -48,3 +48,9 @@ Security
 1. AES 256 encryption algo to store and during backup also ( Encryption at rest )
 2. Security group
 3. IAM to create/manage credential
+
+Monitoring
+
+1. Aurora logs to CloudWatch
+2. CloudWatch Log to S3 and then run analysis with AWS Athena  ( Athena provide interactive query on S3 )
+3. Or CloudWatch Log to AWS ElasticSearch and then run analytics on AWS QuickSight ( QuickSight is BI tool )
