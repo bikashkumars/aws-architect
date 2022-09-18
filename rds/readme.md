@@ -1,3 +1,10 @@
+# Types of DBMS
+
+Online transaction processing (OLTP) databases focus on recording Update, Insertion, and Deletion data transactions. OLTP queries are simple and short, which requires less time and space to process. A great example of an OLTP system is a bank ATM, in which you can modify your bank account using short transactions. 
+
+Online analytical processing (OLAP) databases store historical data that has been input by OLTP. OLAP databases allow users to view different summaries of multidimensional data. Using OLAP, you can extract information from a large database and analyze it for decision-making. A good example of an OLAP system is a business intelligence tool.
+
+
 # RDS
 
 ![RDS](images/rds.JPG)
@@ -11,6 +18,16 @@
 
 [Quick Demo](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1663495200/2HKpYD8YqBZB2VPPwyILrQ/tincan/e92d27afbf892bd9807456c5d88e791f486908d4/assets/w3gfFxG5PJwmj9JB_transcoded-M0j_riHCi1_zuvc0-rds-demo.mp4)
 
+
+## RDS Security
+
+The best practice is to restrict access to your database by placing it inside of an Amazon Virtual Private Cloud, or VPC. Now smetimes you may need to accept requests directly from the internet. In this case, you should create an internet gateway
+
+Security groups are used to control access to a database instance. Amazon RDS can use three types of security groups: database, VPC, and EC2. Amazon RDS uses AWS Identity and Access Management, or IAM, to create and manage credentials. The same users and roles that you have in IAM can also be used with Amazon RDS. Amazon RDS requires both authentication and permission to access tables and data. IAM policies assign permissions that determine who can manage Amazon RDS resources
+
+Third, securing communications to and from the database instance. This is known as data in transit. This is accomplished by using HTTPS connections. These connections are encrypted using Secure Sockets Layer, or SSL.
+
+Finally, protecting data in the database. This is known as data at rest. Amazon RDS uses the industry-standard AES-256 bit encryption algorithm to encrypt the data while at rest
 
 ## RDS Aurora
 
