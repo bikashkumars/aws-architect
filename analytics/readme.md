@@ -1,9 +1,19 @@
 # NoSQL DB and Analytics on AWS
 
 
-## KeyValue DB - Amazon DynamoDB
+## Key Value DB - Amazon DynamoDB
 
 Amazon DynamoDB can handle more than 10 trillion requests per day and support peaks of more than 20 million requests per second. More than 100,000 AWS customers have chosen DynamoDB as their key-value database for mobile, web, gaming, ad tech, IoT, and other applications that need low-latency data access at any scale. DynamoDB supports ACID-compliant transactions.
+
+ACID compliance ( Fully consistant )
+
+Auto Scale In and Out
+
+It's coming under serverless category
+
+Define the unique partition key and then define the sort key
+
+DynamoDB is Billed based on Read, Write and Storage we use.
 
 ## GraphDB - Amazon Neptune
 
