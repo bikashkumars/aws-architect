@@ -19,6 +19,8 @@ Amazon DocumentDB is a fast, reliable, and fully managed database service that a
 
 Amazon DocumentDB is used for storing semistructured data as a document, rather than normalizing data across multiple tables, each with a unique and fixed structure, as in a relational database. Documents stored in a document database use nested key-value pairs to provide the document's schema.
 
+[Quick Demo](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1663524000/BLtzY3mMqfIyA2bFxyTBBQ/tincan/e92d27afbf892bd9807456c5d88e791f486908d4/assets/Qs5xp56YQkInMzEK_transcoded-prR_1_V1YOt0GyVG-dynamo-db-demonstration.mp4)
+
 ## GraphDB - Amazon Neptune
 
 Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected data sets used to discover potential fraudulent behavior before it happens. This starts with finding interactions between products, locations, and devices and then mapping those data points to individual users, customers, and/or employees.
