@@ -29,3 +29,22 @@
 4. backup cost is User initiated backup per gb per month
 5. Data transferred to other AWS region or to outbound internet
 6. No cost within same Region or same VPC
+
+### Aurora Config
+
+Database instance class
+
+1. Memory optimized standard uasge - general production usage
+2. Brustable is best for High pick
+
+Read Replicas
+
+1. Global Database available for Aurora mysql
+2. Global Aurora database expand aurora database instance to multiple AWS Regions, with latency less than second
+
+
+Security
+
+1. AES 256 encryption algo to store and during backup also ( Encryption at rest )
+2. Security group
+3. IAM to create/manage credential
