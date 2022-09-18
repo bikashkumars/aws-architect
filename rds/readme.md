@@ -59,3 +59,8 @@ Monitoring
 Demo
 
 [Quick Aurora Demo](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1663495200/2HKpYD8YqBZB2VPPwyILrQ/tincan/e92d27afbf892bd9807456c5d88e791f486908d4/assets/_yDm0RFgAof0_0zi_transcoded-OTLI6tcZvs6YlhUo-amazon-aurora-demo.mp4)
+
+
+Developer
+
+[Developer Doc](https://aws.amazon.com/rds/aurora/resources/?ar-cards-aurora.sort-by=item.additionalFields.dateAdded&ar-cards-aurora.sort-order=desc)
