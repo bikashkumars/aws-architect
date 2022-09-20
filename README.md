@@ -22,6 +22,10 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 6. Security
 7. Sustainability
 
+# AWS Database Purpose
+
+![db usecase](purpose_build_db_type_use_case.JPG)
+
 # Sample Source code to connect different AWS services
 
 [AWS SDK sample code Java](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/example_code)
