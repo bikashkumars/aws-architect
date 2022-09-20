@@ -63,3 +63,10 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 [bugbust - Submit Bug and Win](https://bugbust.aws/)
 
 [Community Help](https://honeycodecommunity.aws/)
+
+
+# AWS archives
+
+[AWS Archive](https://github.com/amazon-archives/)
+
+[Sample App with DynamoDB](https://github.com/amazon-archives/aws-full-stack-template)
