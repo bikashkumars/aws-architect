@@ -34,6 +34,10 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 
 [Well Architected](https://www.wellarchitectedlabs.com/)
 
+# AWS Shared Security model
+
+![Shared Security model](aws_shared_responsibility.JPG)
+
 # Reference Architecture Diagram
 
 [Find Architecture Diagram](https://aws.amazon.com/architecture/reference-architecture-diagrams)
