@@ -22,9 +22,17 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 6. Security
 7. Sustainability
 
+# AWS Well Architectedlabs
+
+[Well Architected](https://www.wellarchitectedlabs.com/)
+
 # AWS Database Purpose
 
 ![db usecase](purpose_build_db_type_use_case.JPG)
+
+# AWS Shared Security model
+
+![Shared Security model](aws_shared_responsibility.JPG)
 
 # Sample Source code to connect different AWS services
 
@@ -33,14 +41,6 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 [Java Sample](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javav2/example_code/s3)
 
 [Python Sample](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/python/example_code)
-
-# AWS Well Architectedlabs
-
-[Well Architected](https://www.wellarchitectedlabs.com/)
-
-# AWS Shared Security model
-
-![Shared Security model](aws_shared_responsibility.JPG)
 
 # Reference Architecture Diagram
 
