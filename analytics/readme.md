@@ -38,3 +38,26 @@ Amazon DocumentDB is used for storing semistructured data as a document, rather 
 ## MemoryDB - Amazon ElasticCache
 
 MemCache or Redis solution
+
+There are three common types of data caches: built-in, application, and remote. A remote cache is a centralized, in-memory repository that can dramatically improve the responsiveness of databases and applications. It stores data externally from the database in a non-relational key-value database. ElastiCache is a remote cache engine and supports the two most common open source caching engines: Memcached and Redis.
+
+Two common approaches to caching are lazy loading and write-through. Lazy loading is reactive. Data is put into the cache the first time it is requested. Write-through is proactive. Data is put into the cache at the same time it is put into the database.
+
+Now that we have covered important terms, let’s talk about security. Access control and authentication for ElastiCache are managed through AWS Identity and Access Management, or IAM. ElastiCache clusters are created within Amazon Virtual Private Cloud (Amazon VPC) and managed through VPC security groups.
+
+On-premises servers can use ElastiCache provided that there is connectivity between your VPC and data center through either a VPN or AWS Direct Connect.
+
+ElastiCache for Redis supports encryption at rest and in transit. Using the Redis AUTH feature, ElastiCache can also authenticate clients. This version of ElastiCache has versions that are compliant with HIPAA, FedRAMP, and PCI DSS.
+
+Couple examples of how ElastiCache can be pared with other AWS services.
+
+For example, WordPress is a popular open source content management system. WordPress stores content inside a database, usually MySQL. When a user comes to a website, the web server does a significant amount of work. It needs to query the database for page content, merge this content with a template file, apply the appropriate style sheet and JavaScript code, and then send the resulting HTML to the browser. Using ElastiCache allows web servers to do some of this work only once by gathering data from the cache instead of returning to the web server.
+
+Let’s look at one more example. When websites become popular, servers get busy, and this slows down the website. One way to limit the burden on individual web servers is to store the sessions in a remote cache like ElastiCache.
+
+This architecture begins with two Amazon EC2 web servers configured in an Auto Scaling group. Next is Elastic Load Balancing, which is configured to distribute traffic between the web servers. Now remember the session data is centrally stored by ElastiCache, meaning that data is immediately available to other web servers. If one server becomes overwhelmed, any other ElastiCache server can easily provide the session data.
+
+Dream11 is India’s number one fantasy sports platform with over 14 million users in South Asia. The company has been using ElastiCache for Redis to support fantasy games including cricket and soccer. Dream11 has a peak demand of 1.5 million requests per minute and workloads that can quickly surge ten-fold. ElastiCache provides scaling on demand without downtime.
+
+KeptMe is a Hong Kong-based company that provides teachers and parents with a cloud-based platform they can use to collaborate on a child’s educational development. An ElastiCache instance running Redis retrieves and stores information that customers frequently access. This also means that frequently accessed data is available offline, ensuring that users can access 85 to 90 percent of KeptMe’s full functionality, even when they don’t have an internet connection. Amazon Simple Storage Service (Amazon S3) stores media assets such as photos, videos, and audio files.
+
