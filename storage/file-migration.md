@@ -1,5 +1,6 @@
 # File Migration/Transfer Service
 
+![data migration service](images/AWS_data_migration_service.JPG)
 
 ## File Transfer Service
 
