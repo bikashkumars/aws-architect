@@ -62,6 +62,16 @@ With Amazon EFS, you pay only for the storage used by your file system, with no 
 
 ![EFS Use](images/efs_usecase.JPG)
 
+Amazon EFS provides a shared persistence layer that allows stateful applications to elastically scale up and down, such as for the following
+
+DevOps
+Web serving
+Web content systems
+Media processing
+Machine learning
+Analytics
+Search index
+Stateful microservices applications
 
 ![EFS Use](images/EFS_feature.JPG)
 
