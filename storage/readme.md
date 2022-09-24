@@ -48,13 +48,22 @@ FSx for OpenZFS supports NFS and SMB protocols for a wide range of application i
 
 ![EFS](images/efs.JPG)
 
+
+Amazon EFS supports the Network File System version 4 (NFSv4.1 and NFSv4.0) protocol. The applications and tools that you use today work seamlessly with Amazon EFS. Multiple compute modules can access an Amazon EFS file system at the same time. These modules include include Amazon EC2, AWS Lambda, Amazon Elastic Container Service (Amazon ECS), and Amazon Elastic Kubernetes Service (Amazon EKS). Accessing compute services provides a common data source for workloads and applications running on more than one compute instance or container.
+
+With Amazon EFS, you pay only for the storage used by your file system, with no minimum fee or setup cost. Amazon EFS offers a range of storage classes designed for different use cases. These include:
+
+1. Simple interface through the AWS Management Console, the AWS Command Line Interface (AWS CLI), or the Amazon EFS API.
+2. File system access semantics, such as strong data consistency and file locking. You can use Amazon EFS to control access to your file systems through Portable Operating System Interface (POSIX) permissions. 
+3. Supports authentication, authorization, and encryption capabilities to help you meet your security and compliance requirements. 
+4. Provides the throughput, input/output operations per second (IOPS), and low latency needed for a broad range of workloads. With Amazon EFS, you can choose from two performance modes and two throughput modes:
+
 # EFS Usecase
 
 ![EFS Use](images/efs_usecase.JPG)
 
 
 ![EFS Use](images/EFS_feature.JPG)
-
 
 
 # EFS 
@@ -95,6 +104,9 @@ File can be moved from standard to IA class by enabling life cycle management ba
 2 types of performance mode available by EFS
 
 ![EFS Operating mode](images/efs_mode.JPG)
+
+
+You can start saving on your storage costs by enabling EFS lifecycle management for your file system and choosing an age-off policy of 7,14, 30, 60, or 90 days. With EFS lifecycle management policies enabled, files automatically move from Amazon EFS Standard storage to EFS Standard-IA storage, or from Amazon EFS One Zone storage to EFS One Zone-IA storage. Lifecycle management reduces storage costs by up to 92 percent.
 
 
 Data Sync
