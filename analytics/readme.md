@@ -63,3 +63,17 @@ Dream11 is India’s number one fantasy sports platform with over 14 million use
 
 KeptMe is a Hong Kong-based company that provides teachers and parents with a cloud-based platform they can use to collaborate on a child’s educational development. An ElastiCache instance running Redis retrieves and stores information that customers frequently access. This also means that frequently accessed data is available offline, ensuring that users can access 85 to 90 percent of KeptMe’s full functionality, even when they don’t have an internet connection. Amazon Simple Storage Service (Amazon S3) stores media assets such as photos, videos, and audio files.
 
+## Ledger DB
+
+Amazon QLDB is a Ledger DB
+
+Amazon Quantum Ledger Database (Amazon QLDB) is a ledger database that is purpose-built for customers who need to maintain a complete and verifiable history of data changes in an application. Amazon QLDB offers history, immutability, and verifiability combined with the familiarity, scalability, and ease of use of a fully managed AWS database. Amazon QLDB is a new class of database that eliminates the need to engage in the complex development effort of building your own ledger-like applications.
+
+Amazon QLDB has a built-in, immutable journal that stores an accurate and sequenced entry of every data change. The journal is append-only, meaning that data can only be added to a journal, and it cannot be overwritten or deleted. This ensures that your stored change history cannot be deleted or modified.
+
+Even if you delete the data from your ledger, you can still access the change history of that data by reading from the immutable journal. With Amazon QLDB, you can access the entire change history of your application’s data. You can query a summary of historical changes and also specific details related to transaction history.
+
+Amazon QLDB uses a cryptographic hash function (SHA-256) to generate a secure output file of your data’s change history, known as a digest. The digest acts as proof of your data’s change history, allowing you to look back and validate the integrity of your data changes.
+
+
+
