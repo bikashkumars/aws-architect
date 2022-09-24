@@ -2,6 +2,8 @@
 
 AWS Provides Block, file and Object Storage
 
+![AWS core storage service](images/core_storage_service_aws.JPG)
+
 ## Block Storage
 
 Block storage is raw storage in which the hardware storage device or drive is a disk or volume that is formatted and attached to the compute system for use. The storage is formatted into predefined continuous segments on the storage device. These segments are called blocks. The blocks are the basic fixed storage units used to store data on the device.
