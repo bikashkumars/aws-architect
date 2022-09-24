@@ -109,8 +109,22 @@ File can be moved from standard to IA class by enabling life cycle management ba
 You can start saving on your storage costs by enabling EFS lifecycle management for your file system and choosing an age-off policy of 7,14, 30, 60, or 90 days. With EFS lifecycle management policies enabled, files automatically move from Amazon EFS Standard storage to EFS Standard-IA storage, or from Amazon EFS One Zone storage to EFS One Zone-IA storage. Lifecycle management reduces storage costs by up to 92 percent.
 
 
-Data Sync
-AWS Backup
+## EFS Performance
+
+Amazon EFS is designed to provide the throughput, IOPS, and low latency needed for a broad range of workloads. Throughput and IOPS scale as a file system grows. Throughput and IOPScan burst to higher throughput levels for short periods of time to support the unpredictable performance needs of file workloads. For the most demanding workloads, Amazon EFS can support performance over 10 GB/sec and over 500,000 IOPS.
+
+
+## Other AWS service supporting EFS
+
+Amazon EFS integrates with AWS containers and serverless compute services that require shared storage for latency-sensitive and IOPS-heavy workloads at any scale.
+
+Amazon EFS provides applications running on Amazon ECS, Amazon EKS, AWS Fargate, and AWS Lambda, access to shared file systems for stateful workloads.
+
+AWS DataSync – AWS DataSync is a managed data transfer service. Use this service to move data between on-premises storage and Amazon EFS. 
+
+AWS Backup – AWS Backup is a fully managed backup service. Use this service to manage and automate backups of your Amazon EFS file systems centrally. AWS Backup reduces the need for costly, custom solutions and manual processes. The service goes beyond backing up Amazon EFS and centralizes the backup of data across other AWS services in the cloud and on premises. 
+
+AWS Transfer Family – AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon EFS. AWS Transfer Family supports Secure File Transfer Protocol (SFTP), File Transfer Protocol over SSL (FTPS), and File Transfer Protocol (FTP).
 
 
 # EFS real world
