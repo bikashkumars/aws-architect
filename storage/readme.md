@@ -91,4 +91,3 @@ AWS Backup
 2. create a Security Group and allow type as NFS and source from EC2 security group name. Outbound as allow all.
 3. Create a NFS and towards last step it will ask for mount
 4. In the mount choose target AZ, target subnet, newly created security group as step-2
-5. 
