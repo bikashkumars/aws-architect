@@ -32,6 +32,20 @@ Object storage is recognized for its inherent availability of the file objects. 
 
 ![EFS usecase aws](images/aws_efs_usecase.JPG)
 
+Amazon EFS is a scalable, elastic, cloud-native file system for Linux. Amazon EFS supports the Network File System (NFS) protocol.
+
+Amazon FSx for Lustre is an AWS fully managed parallel file system built on Lustre for high performance computing (HPC) workloads. 
+
+FSx for Lustre supports the Lustre POSIX-compliant protocol.
+
+Amazon FSx for NetApp ONTAP is the NetApp ONTAP operating system implemented as a fully managed service. 
+
+FSx for NetApp ONTAP support iSCSI for block storage, NFS protocol for POSIX-compliant access, and SMB protocol for Windows-compatible access.
+
+Amazon FSx for OpenZFS is an AWS fully managed implementation of the Open Zettabyte File System (ZFS). 
+
+FSx for OpenZFS supports NFS and SMB protocols for a wide range of application implementations. 
+
 ![EFS](images/efs.JPG)
 
 # EFS Usecase
