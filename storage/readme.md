@@ -30,6 +30,8 @@ Object storage is recognized for its inherent availability of the file objects. 
 
 # EFS
 
+![EFS usecase aws](images/aws_efs_usecase.JPG)
+
 ![EFS](images/efs.JPG)
 
 # EFS Usecase
@@ -110,3 +112,7 @@ Amazon EBS provides multiple volume types that you can use to optimize storage p
 
 
 1. HDD-based volumes include Throughput Optimized HDD (st1) for frequently accessed, throughput-intensive workloads and the lowest cost Cold HDD (sc1) for less frequently accessed data.
+
+## EBS pricing
+
+With Amazon EBS, you pay only for what you use. Pricing for EBS volumes is based on the volume type, provisioned volume size, and the provisioned IOPS and throughput performance. EBS volume pricing varies based on the Availability Zone where it resides. The pricing for Amazon EBS snapshots is based on the actual amount of storage space that you use.
