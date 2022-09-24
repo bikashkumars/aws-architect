@@ -39,6 +39,8 @@ Amazon DocumentDB is used for storing semistructured data as a document, rather 
 
 MemCache or Redis solution
 
+[Demo](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1664031600/zwBM_iRSX_ZSnfV7NvPAAg/tincan/2490ab78cd22d8fbba8e2c0436e0a9ed2c41d3fe/assets/H6XZowJAvHzQnhCk_transcoded-Yx7FXALTDpIfss4d-elasti-cache-demonstration.mp4)
+
 There are three common types of data caches: built-in, application, and remote. A remote cache is a centralized, in-memory repository that can dramatically improve the responsiveness of databases and applications. It stores data externally from the database in a non-relational key-value database. ElastiCache is a remote cache engine and supports the two most common open source caching engines: Memcached and Redis.
 
 Two common approaches to caching are lazy loading and write-through. Lazy loading is reactive. Data is put into the cache the first time it is requested. Write-through is proactive. Data is put into the cache at the same time it is put into the database.
