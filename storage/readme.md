@@ -191,3 +191,15 @@ You can use Amazon Macie to discover and protect sensitive data stored in Amazon
 1. Any publicly accessible buckets
 2. Unencrypted buckets
 3. Buckets shared or replicated with AWS accounts outside of your organization 
+
+
+## S3 Pricing
+
+With Amazon S3, you pay for only what you use. No minimum fee applies. Amazon S3 has six cost components to consider when storing and managing your data: 
+
+1. Storage pricing
+2. Request and data retrieval pricing
+3. Data transfer and transfer acceleration pricing
+4. Data management and analytics pricing
+5. Price to process your data with S3 Object Lambda
+5. Amazon S3 pricing varies based on the AWS Region where it resides.
