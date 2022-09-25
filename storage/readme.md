@@ -166,3 +166,28 @@ Amazon EBS provides multiple volume types that you can use to optimize storage p
 ## EBS pricing
 
 With Amazon EBS, you pay only for what you use. Pricing for EBS volumes is based on the volume type, provisioned volume size, and the provisioned IOPS and throughput performance. EBS volume pricing varies based on the Availability Zone where it resides. The pricing for Amazon EBS snapshots is based on the actual amount of storage space that you use.
+
+
+# AWS S3
+
+Amazon S3 provides industry-leading performance for cloud object storage. Amazon S3 supports parallel requests. This means that you can scale your S3 performance by the factor of your compute cluster, without customizing your application. Performance scales per prefix, so you can use as many prefixes as you need in parallel to achieve the required throughput. You can have a virtually unlimited number of prefixes. Amazon S3 performance supports at least 3,500 requests per second to add data and 5,500 requests per second to retrieve data. Each S3 prefix can support these request rates, making it simple to increase performance significantly.
+
+Amazon S3 provides strong read-after-write consistency for PUT and DELETE actions on objects in your Amazon S3 bucket in all AWS Regions. This applies to both writes to new objects and PUT actions that overwrite existing objects and DELETE actions. In addition, read operations on Amazon S3 Select, Amazon S3 access control lists, Amazon S3 object tags, and object metadata (for example, HEAD object) are strongly consistent.
+
+Amazon S3 offers a range of storage classes designed for different use cases. Every S3 storage class supports a specific data access level at corresponding costs or geographic location. S3 storage classes include:
+
+1. S3 Standard for general-purpose storage of frequently accessed data
+2. S3 Standard-Infrequent Access (S3 Standard-IA) for less frequently accessed data
+3. S3 One Zone-Infrequent Access (S3 One Zone-IA) for less frequently accessed data and lower availability requirements
+4. S3 Intelligent-Tiering for data with unknown or changing access patterns
+5. Amazon S3 Glacier Instant Retrieval for lower-cost archival storage that may require retrieval at any time.  
+6. Amazon S3 Glacier Flexible Retrieval for low-cost archival storage with retrieval time from minutes to hours
+7. Amazon S3 Glacier Deep Archive (S3 Glacier Deep Archive) for lowest-cost storage with retrieval times up to 12 hours
+8. Amazon S3 on Outposts for on-premises hybrid data storage and satisfying data residency requirements. 
+
+
+You can use Amazon Macie to discover and protect sensitive data stored in Amazon S3. Macie gathers a complete S3 inventory automatically and continually evaluates every bucket to alert on any of the following:
+
+1. Any publicly accessible buckets
+2. Unencrypted buckets
+3. Buckets shared or replicated with AWS accounts outside of your organization 
