@@ -38,6 +38,7 @@ infrastructure )
 4. Business agility ( Deploying new features/applications fasterand reducing errors. Developers don’t have to wait to get the budget to deploy a full infrastructure )
 
 More on Economics: The rightsizing recommendations feature in Cost Explorer (AWS Cost Management) helps you identify cost-saving opportunities by downsizing or terminating instances in Amazon Elastic Compute Cloud (Amazon EC2). Rightsizing recommendations analyze your Amazon EC2 resources and usage to show opportunities for how you can lower your spending.
+[cost optimization](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-rightsizing.html)
 
 # AWS Well Architectedlabs
 
