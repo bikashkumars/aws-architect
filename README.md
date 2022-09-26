@@ -29,6 +29,14 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 3. Elasticity ( Horizontal scaling - Scale-in and Scale-out based on demand )
 4. Parallel ( 2 EC2 instaces serving live traffic with ALB )
 
+## AWS Cloud Economics
+
+1. Cost savings ( Cost reduction with On-demand Pay-as-you go model and Spot instances )
+2. Staff productivity ( Infrastructure configuration overhead reduced. move away from the day-to-day operational headaches associated with managing IT
+infrastructure )
+3. Operational resilience (improving SLAs and reducing unplanned outages. AWS CloudFormation/Terraform to automate infra to avoid human errors)
+4. Business agility ( Deploying new features/applications fasterand reducing errors. Developers don’t have to wait to get the budget to deploy a full infrastructure )
+
 
 # AWS Well Architectedlabs
 
