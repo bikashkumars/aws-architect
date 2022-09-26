@@ -29,31 +29,6 @@ Amazon Domain Name Services (DNS)
 
 Amazon Dynamic Host Configuration Protocol (DHCP)
 
-## AWS Compliance Program
-
-The AWS Compliance Program helps customers to understand the robust controls in place at AWS to maintain security and compliance in the cloud. 
-By tying together governance-focused, audit-friendly service features with applicable compliance or audit standards
-
-[compliance program AWS](https://aws.amazon.com/compliance/programs/)
-
-
-## Security services provided by AWS
-
-1. IAM
-2. Inspector
-3. config
-4. cloudWatch
-5. CloudTrail
-6. AWS Shield
-7. WAF
-8. KMS
-
-Compliance
-1. Artifact
-2. Audit Manager
-
-[Security services provided by AWS](https://aws.amazon.com/products/security/)
-
 Amazon EC2 instance metadata
 
 Amazon ECS task metadata endpoints
@@ -74,3 +49,32 @@ Amazon ECS task metadata endpoints
 It's good pratice to create Security Groups for Web server / proxy, Application and Databases
 
 ![Security Group Chaining](images/security_group_chaining.JPG)
+
+
+## AWS Compliance Program
+
+The AWS Compliance Program helps customers to understand the robust controls in place at AWS to maintain security and compliance in the cloud. 
+By tying together governance-focused, audit-friendly service features with applicable compliance or audit standards
+
+[compliance program AWS](https://aws.amazon.com/compliance/programs/)
+
+## Security services provided by AWS
+
+1. IAM
+2. Inspector
+3. config
+4. cloudWatch
+5. CloudTrail
+6. AWS Shield
+7. WAF
+8. KMS
+
+Compliance
+1. Artifact
+2. Audit Manager
+
+[Security services provided by AWS](https://aws.amazon.com/products/security/)
+
+## Root User
+
+[root user aws](https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-require-root)
