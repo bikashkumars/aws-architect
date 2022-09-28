@@ -84,4 +84,6 @@ Compliance
 
 Outside tools and practices which makes security better on AWS 
 
-[Trust on cloud](https://trustoncloud.com/the-last-s3-security-document-that-well-ever-need/)
+[Trust on cloud guide for s3](https://trustoncloud.com/the-last-s3-security-document-that-well-ever-need/)
+
+[Trust on cloud blog](https://trustoncloud.com/the-last-s3-security-document-that-well-ever-need/)
