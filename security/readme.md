@@ -78,3 +78,10 @@ Compliance
 ## Root User
 
 [root user aws](https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-require-root)
+
+
+## Outside guide and tools
+
+Outside tools and practices which makes security better on AWS 
+
+[Trust on cloud](https://trustoncloud.com/the-last-s3-security-document-that-well-ever-need/)
