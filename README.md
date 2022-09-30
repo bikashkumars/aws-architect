@@ -64,6 +64,10 @@ More on Economics: The rightsizing recommendations feature in Cost Explorer (AWS
 
 [Find Architecture Diagram](https://aws.amazon.com/architecture/reference-architecture-diagrams)
 
+## Price calculator
+
+[simple AWS price calculator](https://calculator.s3.amazonaws.com/index.html)
+
 # Learn by doing
 
 [Skill builder](https://skillbuilder.aws)
