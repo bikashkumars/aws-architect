@@ -10,6 +10,17 @@ A must known resources of AWS for Architects and Cloud engineer
 
 [PPT](https://aws.amazon.com/architecture/icons/)
 
+## AWS Knowledge Center aka Premimum Support
+
+The Knowledge Center page contains links to nearly 1,000 questions arranged by service,
+each representing a fairly common problem encountered by real AWS customers. You’ll find
+questions like, “How can I install the AWS CloudFormation helper scripts on Ubuntu or
+Red Hat Enterprise Linux?” and “What happens when my reserved instance expires?”
+
+Get answer to all "how to questions" on AWS service usage
+
+[AWS Premimum Service](https://aws.amazon.com/premiumsupport/knowledge-center/)
+
 # AWS Well Architecture framework
 
 Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
