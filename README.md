@@ -73,7 +73,7 @@ More on Economics: The rightsizing recommendations feature in Cost Explorer (AWS
 1. Basic ( Free of cost )
 2. Developer ( Associate available during business hours - chat/email and production downtime help within 1 hour )
 3. Business ( Engineer available 24/7 - call/email/chat and production downtime help within 1 hour )
-4. Enterprise ( Senior engineer available 24/7 - call/email/chat and production downtime help within 1 hour plus business critial apps support within 15 min )
+4. Enterprise ( Senior engineer available 24/7 - call/email/chat and production downtime help within 1 hour plus business critial apps support within 15 min. Technical account manager is assigned to your organization/account for planning, deployment and recommendation )
 
 # Learn by doing
 
