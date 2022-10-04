@@ -68,6 +68,13 @@ More on Economics: The rightsizing recommendations feature in Cost Explorer (AWS
 
 [simple AWS price calculator](https://calculator.s3.amazonaws.com/index.html)
 
+## AWS Support Plans
+
+1. Basic ( Free of cost )
+2. Developer ( Associate 24/7 and production downtime help within 1 hour )
+3. Business ( Engineer 24/7 and production downtime help within 1 hour )
+4. Enterprise ( Senior engineer 24/7 and production downtime help within 1 hour plus business critial apps support within 15 min )
+
 # Learn by doing
 
 [Skill builder](https://skillbuilder.aws)
