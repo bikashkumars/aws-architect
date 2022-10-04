@@ -71,9 +71,9 @@ More on Economics: The rightsizing recommendations feature in Cost Explorer (AWS
 ## AWS Support Plans
 
 1. Basic ( Free of cost )
-2. Developer ( Associate 24/7 and production downtime help within 1 hour )
-3. Business ( Engineer 24/7 and production downtime help within 1 hour )
-4. Enterprise ( Senior engineer 24/7 and production downtime help within 1 hour plus business critial apps support within 15 min )
+2. Developer ( Associate available during business hours - chat/email and production downtime help within 1 hour )
+3. Business ( Engineer available 24/7 - call/email/chat and production downtime help within 1 hour )
+4. Enterprise ( Senior engineer available 24/7 - call/email/chat and production downtime help within 1 hour plus business critial apps support within 15 min )
 
 # Learn by doing
 
