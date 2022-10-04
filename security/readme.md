@@ -68,6 +68,7 @@ By tying together governance-focused, audit-friendly service features with appli
 6. AWS Shield
 7. WAF
 8. KMS
+9. Trusted Advisor
 
 Compliance
 1. Artifact
@@ -92,3 +93,16 @@ Outside tools and practices which makes security better on AWS
 ## AWS Security White papers
 
 [AWS Security white paper](https://aws.amazon.com/security/security-learning/)
+
+
+## AWS Trusted Advisor
+
+You use Trusted Advisor to visually confirm whether your account resource configurations
+are sound and are compliant with best practices. Trusted Advisor organizes its compliance
+alerts across five categories
+
+1. Cost Optimization
+2. Performance
+3. Security
+4. Fault Tolerance
+5. Service Limits
