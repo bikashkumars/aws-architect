@@ -44,6 +44,8 @@ By default AWS adds block All traffic and kept has lowest priority so that your 
 
 # CIDR
 
+The CIDR block size must have a size between /16 and /28 range.
+
 CIDR has total 32bits, as each (x) has 8 bit, combine 4 x we will have 32 bit.
 
 x.x.x.x which is 8 * 4 = 32 bit  (each X has 8 bit and total we have 4 x/numbers)
