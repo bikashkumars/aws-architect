@@ -25,6 +25,8 @@ Get answer to all "how to questions" on AWS service usage
 
 Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 
+[wellarchitectedlabs](https://www.wellarchitectedlabs.com/cost/100_labs/100_5_cost_visualization/)
+
 1. Performance
 2. Reliability
 3. Operational Excellence
