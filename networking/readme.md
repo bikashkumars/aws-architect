@@ -65,6 +65,10 @@ But there is limitation of secondary CIDR block.
 
 CIDR block should never overlap, anyways AWS throws error when you do that.
 
+## IPv6
+
+A subnet's IPv6 CIDR block is a fixed prefix length of /64
+
 # Subnet
 
 Each subnet must be attached with a routing table.
@@ -95,6 +99,19 @@ The first four IP addresses and the last IP address in each subnet CIDR block ar
 
 5. 10.0.0.255: Network broadcast address. We do not support broadcast in a VPC, therefore we reserve this address.
 
+A subnet's IPv6 CIDR block is a fixed prefix length of /64
+
+The first four IPv6 addresses and the last IPv6 address in each subnet CIDR block are not available for your use, and they cannot be assigned to an EC2 instance. For example, in a subnet with CIDR block 2001:db8:1234:1a00/64, the following five IP addresses are reserved:
+
+1. 2001:db8:1234:1a00::
+
+2. 2001:db8:1234:1a00::1
+
+3. 2001:db8:1234:1a00::2
+
+4. 2001:db8:1234:1a00::3
+
+5. 2001:db8:1234:1a00:ffff:ffff:ffff:ffff
 
 # Internet Gateway and Nat Gateway
 
