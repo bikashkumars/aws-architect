@@ -69,6 +69,8 @@ CIDR block should never overlap, anyways AWS throws error when you do that.
 
 Each subnet must be attached with a routing table.
 
+Each subnet must reside entirely within one Availability Zone and cannot span zones
+
 If Internet Gateway is attached, then its called Public subnet.
 
 If Internet Gateway is not attached, then its called Private subnet.
