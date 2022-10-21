@@ -6,10 +6,24 @@ Open a Account on AWS Skill Builder
 
 [AWS Skillbuilder](https://skillbuilder.aws)
 
+## AWS Workshops
+
+Step by Step Workshop using AWS services
+[AWS Workshops](https://workshops.aws/)
+
+
+## AWS Power Hours
+
+[Power Hour](https://pages.awscloud.com/traincert-twitch-power-hour-architecting.html)
+
+## AWS Cloud Speacility challenge
+
+[cloud specility challenge ends Dec 2022](https://pages.awscloud.com/GLOBAL-ln-GC-TrainCert-Specialty-Certification-Challenge-2022-reg.html)
+
 ## AWS free digital badges
 
 List of digital badges available
-https://aws.amazon.com/training/badges
+[cloud badges](https://aws.amazon.com/training/badges)
 
 If you earn the Object, Block, and File badges, you’ll automatically earn the Storage Core badge. If you earn all the Storage badges, you’ll earn the Storage Technologist badge.
 
