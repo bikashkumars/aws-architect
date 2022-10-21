@@ -26,6 +26,11 @@ Follow Power hours page for exact schedule
 
 [cloud specility challenge ends Dec 2022](https://pages.awscloud.com/GLOBAL-ln-GC-TrainCert-Specialty-Certification-Challenge-2022-reg.html)
 
+
+## AWS Well Architected labs
+
+[AWS Well Architected labs](https://wellarchitectedlabs.com/cost/100_labs/100_1_aws_account_setup/1_iam_access/)
+
 ## AWS free digital badges
 
 List of digital badges available
