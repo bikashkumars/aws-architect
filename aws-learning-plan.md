@@ -12,7 +12,13 @@ Step by Step Workshop using AWS services
 [AWS Workshops](https://workshops.aws/)
 
 
-## AWS Power Hours
+## AWS Show on Twitch
+
+[AWS on Twitch](https://www.twitch.tv/aws)
+
+Follow Power hours page for exact schedule
+
+## AWS Power Hours Schedule
 
 [Power Hour](https://pages.awscloud.com/traincert-twitch-power-hour-architecting.html)
 
