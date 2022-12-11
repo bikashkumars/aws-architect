@@ -65,13 +65,14 @@ You will be able to see your spend data within 24 hours after you launch Cost Ex
 ## How to Optimize cost on AWS
 
 General Rule of thumb:
+
 ✅ Run your final workload for 3~4 months and keep eyes on utilization before opt for reserved instances.
 
 ✅ Configure Cloud Watch to keep eyes on resource utilization
 
 ✅ Within that 3~4 months, keep tweaking right sizing (CPU, RAM, Class) to fit your need. Applicable to all AWS service which allows change in instance type/class.
 
-✅ ~70-80% of your workflow should use reserved instance and another 20~30% workload should use On-Demand and Spot instance.
+✅ 70-80% of your workflow should use reserved instance and another 20~30% workload should use On-Demand and Spot instance.
 
 ✅ Workload which are ok to be impacted due to node failures, should use Spot instances. Example Big Data processing using Spark.
 
