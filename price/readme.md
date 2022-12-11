@@ -88,6 +88,7 @@ General Rule of thumb:
 
 
 Operational:
+
 ✔️ Use Consolidated Billing by using AWS Organization. Many AWS Services provides volume pricing tiers discount across certain usage dimensions. But applicable for company/user who is having large clusters on AWS.
 
 ✔️ One Auto-scaling group can be setup for On-Demand type instances and another Auto-scaling group can be setup for Spot instances. This is applicable to workload running on EC2 and EKS.
@@ -102,6 +103,7 @@ Operational:
 
 
 Start using AWS Services to optimize cost:
+
 ☑️ Trusted Advisor - Will give tips to optimize your use of aws resources.
 
 ☑️ AWS Budget - Get Alerts when your usage hit a threshold.
