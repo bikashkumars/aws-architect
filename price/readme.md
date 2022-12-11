@@ -66,26 +66,46 @@ You will be able to see your spend data within 24 hours after you launch Cost Ex
 
 General Rule of thumb:
 ✅ Run your final workload for 3~4 months and keep eyes on utilization before opt for reserved instances.
+
 ✅ Configure Cloud Watch to keep eyes on resource utilization
+
 ✅ Within that 3~4 months, keep tweaking right sizing (CPU, RAM, Class) to fit your need. Applicable to all AWS service which allows change in instance type/class.
+
 ✅ ~70-80% of your workflow should use reserved instance and another 20~30% workload should use On-Demand and Spot instance.
+
 ✅ Workload which are ok to be impacted due to node failures, should use Spot instances. Example Big Data processing using Spark.
+
 ✅ Dev/Test instances should be Auto shutdown when its not in use. Simply using Cloud Watch+lamba function. Example instance shutdown/destroy on Weekends and Post business Hours.
+
 ✅ Down scale instance post business hours. If Your application is not being used by users post particular working hours.
+
 ✅ Start using Cache ( Redis or Memcached ) in your application to reduce your bill. As getting data out of AWS RDS/Other services impacts on Cost.
+
 ✅ Keep your Transactional work and Analytical work as separate workload. You can move data from main RDS to analytics database. So need to understand RDS vs S3 vs RedShift.
+
 ✅ Understand difference between AWS RDS, NoSQL, Analytics DB and Cache DB
+
 
 Operational:
 ✔️ Use Consolidated Billing by using AWS Organization. Many AWS Services provides volume pricing tiers discount across certain usage dimensions. But applicable for company/user who is having large clusters on AWS.
+
 ✔️ One Auto-scaling group can be setup for On-Demand type instances and another Auto-scaling group can be setup for Spot instances. This is applicable to workload running on EC2 and EKS.
+
 ✔️ Automate Dev/Test type instance Spin and Destroy using Terraform or Cloud Formation. Also Plan for Downscaling and upscaling with automation if destroy is not possible.
+
 ✔️ Move unused data on S3 to lower tier S3 class. Completely unused data can be moved to Glacier.
+
 ✔️ Think where you can use AWS Lamda for short lived task. But do remember that also makes your application non cloud agnostic.
+
 ✔️ Use as much AZs as possible. If you need 30 instances, in-case you are using 2 AZs and you are running 15 instance in each AZ. But the better setup would be use 10 instance in each AZ and take 3rd AZ if its available to you.
+
 
 Start using AWS Services to optimize cost:
 ☑️ Trusted Advisor - Will give tips to optimize your use of aws resources.
+
 ☑️ AWS Budget - Get Alerts when your usage hit a threshold.
+
 ☑️ AWS Cost Explorer - Review cost and Billing. In-case you are not using reserve instances, you will get recommendation for that. If you are already using Reserved instances, you will get utilization report.
+
 ☑️ Use CloudWatch wisely. Not to forget cloud watch provides 10 free alerts configuration.
+
