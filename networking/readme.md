@@ -1,9 +1,9 @@
 # AWS VPC
 
 1. VPC is isolated but are managed in place where other customer do have their VPC
-2. VPC Peering ( 2 connect 2 VPC present in different region or same region)
+2. VPC Peering ( This allows connect 2 VPC present in different region or same region)
 3. VPC are restricted to use in 1 Region (multiple AZs)
-4. VPC comes with default Roting table and we can create our custom Routing table
+4. VPC comes with default Routing table and we can create our custom Routing table
 
 Deep concept
 1. VPC is always attached with 1 Main Routing Table
