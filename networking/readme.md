@@ -128,7 +128,7 @@ The first four IPv6 addresses and the last IPv6 address in each subnet CIDR bloc
 1. first create a VPC peering with source and target ( requester and Accepter )
 2. selecting the peering vpc, then from the action menu, accept the peering at the accepter VPC
 3. Now need to change routing table of both source vpc and target vpc
-4. then in target EC2 add security group rules to allow traffic from specific vpx
+4. Then in target EC2 add security group rules to allow traffic from specific vpc
 
 
 
