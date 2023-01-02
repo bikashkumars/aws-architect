@@ -11,6 +11,13 @@ Open a Account on AWS Skill Builder
 Step by Step Workshop using AWS services
 [AWS Workshops](https://workshops.aws/)
 
+## AWS sample
+
+[AWS sample on GitHub](
+https://github.com/aws-samples)
+
+[Other resources on Github](
+https://github.com/acantril/learn-cantrill-io-labs)
 
 ## AWS Show on Twitch
 
