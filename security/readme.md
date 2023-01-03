@@ -69,6 +69,10 @@ By tying together governance-focused, audit-friendly service features with appli
 7. WAF
 8. KMS
 9. Trusted Advisor
+10. Guard Duty
+11. Encryption at transit and rest for different service out-of-box
+12. Security Hub
+13. Firewall Manager
 
 Compliance
 1. Artifact
