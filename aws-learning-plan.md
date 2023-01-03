@@ -19,6 +19,10 @@ https://github.com/aws-samples)
 [Other resources on Github](
 https://github.com/acantril/learn-cantrill-io-labs)
 
+## AWS fundamental
+
+[Fundamental](https://awsfundamentals.com)
+
 ## AWS Show on Twitch
 
 [AWS on Twitch](https://www.twitch.tv/aws)
