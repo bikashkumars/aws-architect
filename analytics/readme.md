@@ -7,7 +7,12 @@ Amazon DynamoDB can handle more than 10 trillion requests per day and support pe
 
 ACID compliance ( Fully consistant )
 
-Auto Scale In and Out
+Auto Scale In and Out.
+
+It offers 2 types of consistency model
+
+- Eventually consistent - where write speed if fast but you may see old record
+- Consistent - Where speed is slow, but always you will get latest record
 
 It's coming under serverless category
 
