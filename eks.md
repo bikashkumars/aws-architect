@@ -6,6 +6,6 @@
 
 ## Leanding Resources
 
-[EKS](https://aws.github.io/aws-eks-best-practices/networking/subnets/)
+[EKS Best Pratices aws.github.io](https://aws.github.io/aws-eks-best-practices/networking/subnets/)
 
-[Workshop](https://aws.amazon.com/getting-started/hands-on/deploy-kubernetes-app-amazon-eks/)
+[Workshop to create a quick cluster](https://aws.amazon.com/getting-started/hands-on/deploy-kubernetes-app-amazon-eks/)
