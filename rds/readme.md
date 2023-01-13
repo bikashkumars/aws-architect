@@ -81,3 +81,24 @@ Demo
 Developer
 
 [Developer Doc](https://aws.amazon.com/rds/aurora/resources/?ar-cards-aurora.sort-by=item.additionalFields.dateAdded&ar-cards-aurora.sort-order=desc)
+
+
+## Maintenance Window of RDS
+
+Resolution
+Note: If you receive errors when running AWS Command Line Interface (AWS CLI) commands, make sure that you’re using the most recent AWS CLI version.
+
+Occasionally, AWS performs maintenance to the hardware, operating system (OS), or database engine version for a DB instance or cluster. For more information, see Maintaining a DB instance and Upgrading a DB instance engine version.
+
+For information about pending maintenance events for your Amazon RDS DB instances, check the Events pane of the Amazon RDS console. Then, check for engine-specific maintenance events. You can run describe-pending-maintenance-actions using the AWS Command Line Interface (AWS CLI) or the Amazon RDS API for DescribeDBInstances. You can also check Amazon RDS recommendations for Pending maintenance available.
+
+Hardware maintenance
+Before maintenance is scheduled, you receive an email notification about scheduled hardware maintenance windows that includes the time of the maintenance and the Availability Zones that are affected. During hardware maintenance, Single-AZ deployments are unavailable for a few minutes. Multi-AZ deployments are unavailable for the time it takes the instance to failover (usually about 60 seconds) if the Availability Zone is affected by the maintenance. If only the secondary Availability Zone is affected, then there is no failover or downtime.
+
+OS maintenance
+After OS maintenance is scheduled for the next maintenance window, maintenance can be postponed by adjusting your preferred maintenance window. Maintenance can also be deferred by choosing Defer Upgrade from the Actions dropdown menu. To minimize downtime, modify the Amazon RDS DB instance to a Multi-AZ deployment. For Multi-AZ deployments, OS maintenance is applied to the secondary instance first, then the instance fails over, and then the primary instance is updated. The downtime is during failover. For more information, see Maintenance for Multi-AZ deployments.
+
+DB engine maintenance
+Upgrades to the database engine level require downtime. Even if your RDS DB instance uses a Multi-AZ deployment, both the primary and standby DB instances are upgraded at the same time. This causes downtime until the upgrade is complete, and the duration of the downtime varies based on the size of your DB instance. For more information, see the section for your DB engine in Upgrading a DB instance engine version.
+
+Note: If you upgrade a SQL Server DB instance in a Multi-AZ deployment, then both the primary and standby instances are upgraded. Amazon RDS performs rolling upgrades, so you have an outage only for the duration of a failover. For more information, see Multi-AZ and in-memory optimization considerations.
