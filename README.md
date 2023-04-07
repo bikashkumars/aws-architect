@@ -37,7 +37,7 @@ Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
 
 ## Cloud Architecture Design principle
 
-1. Design for Failtures ( atleast 2 EC2 instances, as anything may fail )
+1. Design for Failures ( atleast 2 EC2 instances, as anything may fail )
 2. Decouple or Loose coupling ( Microservice Architecture, deploy with low dependency, Avoid monolith Apps, Don't install DB on EC2 where App is installed )
 3. Elasticity ( Horizontal scaling - Scale-in and Scale-out based on demand )
 4. Parallel ( 2 EC2 instaces serving live traffic with ALB )
