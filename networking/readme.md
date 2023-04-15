@@ -40,6 +40,10 @@ By default AWS adds block All traffic and kept has lowest priority so that your 
 3. Target can be igw and destination can be 0.0.0.0/0 (any) for public subnet
 4. Target can be nat and destination can be 0.0.0.0/0 (any) for private subnet
 
+Every route table contains a local route for communication within the VPC. This route is added by default to all route tables. If your VPC has more than one IPv4 CIDR block, your route tables contain a local route for each IPv4 CIDR block.
+
+When a subnet does not have an explicit routing table associated with it, the main routing table is used by default. On the Route tables page in the Amazon VPC console, you can view the main route table for a VPC by looking for Yes in the Main column.
+
 ![VPC](images/routing_table.JPG)
 
 # CIDR
