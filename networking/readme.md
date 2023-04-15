@@ -121,6 +121,7 @@ The first four IPv6 addresses and the last IPv6 address in each subnet CIDR bloc
 
 ![VPC](images/NAT_IG.JPG)
 
+When you create internet gateway, after creating it the IGW, you have to attach it to a VPC, then only you can map that IGW in routing table rules of any subnet.
 
 # Outbound internet for IPV6 private subnet
 
