@@ -7,3 +7,5 @@ Goto Auto Scaling Group and Edit, then configure following in Autoscaling group 
 * Health check
 * Replace unhealthy
 * Schedule Action
+
+During the AMI-creation process, Amazon EC2 creates snapshots of your instance's root volume and any other EBS volumes attached to your instance. You're charged for the snapshots until you deregister the AMI and delete the snapshots. If any volumes attached to the instance are encrypted, the new AMI only launches successfully on instances that support Amazon EBS encryption.
