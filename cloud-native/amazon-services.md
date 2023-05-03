@@ -16,3 +16,19 @@ Visibility timeout - Once one consumer consumes once message, for that visibilit
 
 Deadletter Queue - once a message receives maximum receive count, then that message will move to dead letter queue. Dead letter queue are normal queue. 
 One SQS queue can be used as dead letter queue for multiple SQS.
+
+We can do server side encryption
+
+[policy calculator](https://awspolicygen.s3.amazonaws.com/policygen.html)
+
+
+## AWS SNS
+
+SNS can be used for notification service
+
+There are 2 types of SNS
+
+1. Standard
+2. FIFO
+
+Encryption is supported
