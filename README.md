@@ -21,6 +21,10 @@ Get answer to all "how to questions" on AWS service usage
 
 [AWS Premimum Service](https://aws.amazon.com/premiumsupport/knowledge-center/)
 
+# AWS Sample - Distributed ML model training
+
+(github link)[https://github.com/aws-samples/awsome-distributed-training]
+
 # AWS Well Architecture framework
 
 Remember P.R.O.C.E.S.S to recall fast (E has no meaning)
