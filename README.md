@@ -23,7 +23,7 @@ Get answer to all "how to questions" on AWS service usage
 
 # AWS Sample - Distributed ML model training
 
-(github link)[https://github.com/aws-samples/awsome-distributed-training]
+[github link](https://github.com/aws-samples/awsome-distributed-training)
 
 # AWS Well Architecture framework
 
